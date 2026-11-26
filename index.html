@@ -3,20 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#432a51">
+  <meta name="theme-color" content="#7bdcf0">
   <title>VIce2WIN — Can your PC run it?</title>
   <meta name="description" content="Estimate whether your PC or handheld is ready for Project VIce2WIN.">
   <link rel="icon" href="gta-vi-icon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="site.css?v=7">
+  <link rel="stylesheet" href="site.css?v=8">
+  <script src="glass.js?v=8" defer></script>
 </head>
 <body>
   <div class="shell">
     <header class="topbar"><a class="brand" href="#top" aria-label="Project VIce2WIN home"><img class="brand-mark" src="gta-vi-icon.png" alt="Grand Theft Auto VI emblem" width="46" height="46"><span>VIce2WIN <small>COMMUNITY RIG CHECK</small></span></a><a class="discord-btn" href="https://discord.gg/FNYpDjQJUN" target="_blank" rel="noopener noreferrer">JOIN THE DISCORD</a></header>
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> PROJECT VIce2WIN / PC COMPATIBILITY</div><h1 id="hero-title"><span>Welcome to</span><em>Leonida.</em></h1><p><strong>Can your rig run VIce2WIN?</strong><br>Pick your parts. Check your chances. See you in the sunshine.</p></div><div class="hero-art" aria-hidden="true"><div class="vi-lens"><img src="gta-vi-icon.png" alt="" width="240" height="240"></div><div class="location-tag"><b>LEONIDA</b><span>WELCOME TO THE GOOD LIFE</span></div></div></section>
-      <section class="main-grid" aria-label="Hardware compatibility checker">
+      <section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> PROJECT VIce2WIN / PC COMPATIBILITY</div><h1 id="hero-title"><span>Welcome to</span><em>Leonida.</em></h1><p><strong>Can your rig run VIce2WIN?</strong><br>Pick your parts. Check your chances. See you in the sunshine.</p><a class="hero-jump" href="#rig-check">CHECK MY RIG <span aria-hidden="true">↓</span></a></div></section>
+      <section class="main-grid" id="rig-check" aria-label="Hardware compatibility checker">
         <article class="card">
           <div class="card-head"><div><h2>Build your rig</h2><p>Choose the closest match for each component.</p></div><span class="step">01 / 03</span></div>
           <div class="readiness-scale"><div></div><div></div><div></div><span>CAN’T RUN</span><span>STUTTERS</span><span>READY</span></div>
@@ -39,7 +40,7 @@
       </section>
       <section class="below" aria-label="How the estimate works"><article class="info-card"><h3>How we score it</h3><p>The estimate weighs your slowest major component, then checks available memory. A balanced CPU/GPU pairing matters more than a flagship chip paired with an entry-level card.</p><div class="scale"><span>CPU tier</span><span>GPU tier</span><span>RAM capacity</span></div></article><article class="info-card"><h3>Handhelds welcome</h3><p>Steam Deck, ROG Ally, Legion Go, MSI Claw and more are included as presets. Shared memory and power limits make handheld results especially approximate.</p><div class="scale"><span>Preset fills all picks</span><span>Selections remain editable</span></div></article></section>
     </main>
-    <footer class="footer"><span>Unofficial community tool · Project VIce2WIN</span><span>Not affiliated with Rockstar Games or Take-Two Interactive.</span></footer>
+    <footer class="footer"><div class="credits"><span>Art made by <a href="https://www.tiktok.com/@guytinpot" target="_blank" rel="noopener noreferrer">@guytinpot</a> on TikTok</span><span>Game development by <strong>@airheadlover67</strong></span></div><small>Unofficial community tool · Project VIce2WIN<br>Not affiliated with Rockstar Games or Take-Two Interactive.</small></footer>
   </div>
   <script>
   // Relative tier scores are editorial estimates, not game benchmarks or official requirements.
